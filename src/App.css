@@ -1,0 +1,57 @@
+.App {
+  background: linear-gradient(160deg, rgba(102, 6, 78, 0.20) 0%, #3e2e86 99.92%);
+  height: 100vh;
+  padding-top: 1.5rem;
+}
+.wrapper-tasks{
+  display: flex;
+  position: relative;
+  background-color: rgba(182, 114, 189, 0.459);
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem
+}
+
+a {
+  padding-left: 0.4rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+.wrapper-tasks:hover{
+  background-color:#d196ec;
+  text-decoration: none;
+}
+
+.list-task {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  max-width: 30rem;
+  margin-left: 25rem;
+  padding: 1.5rem;
+  background: rgb(55, 55, 124);
+  border-radius: 1rem;
+}
+
+.task{
+  padding-bottom: 1rem;
+  color:aliceblue;
+}
+
+button  {
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(170, 162, 170);
+  padding: 0.2rem 0.6rem;
+  color: rgb(56, 53, 56);
+  background-image: linear-gradient(180deg, rgba(133, 114, 221, 0.31) 0%, #d196ec 89.62%);
+  border-radius: 0.5rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button:hover {
+  background-color:rgb(177, 14, 144);
+}
